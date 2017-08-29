@@ -7,11 +7,12 @@ import io.vertx.ext.web.Router;
 import io.vertx.ext.web.RoutingContext;
 import io.vertx.ext.web.handler.StaticHandler;
 
+
 import static io.vertx.core.http.HttpHeaders.CONTENT_TYPE;
 
 public class HttpApplication extends AbstractVerticle {
 
-  protected static final String template = "Hello, %s!";
+  protected static final String template = "Bonjour, %s!";
 
   @Override
   public void start(Future<Void> future) {
